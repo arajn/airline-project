@@ -29,4 +29,4 @@ rm -rf ~/miniforge.sh
 ${PYTHON_PREFIX}/bin/pip install -r requirements.txt
 
 # Run app
-${PYTHON_PREFIX}/bin/streamlit run projectapp.py --server.enableCORS=false --server.enableXsrfProtection=false --server.port 8080
+${PYTHON_PREFIX}/bin/streamlit run app.py --server.enableCORS=false --server.enableXsrfProtection=false --server.port 8080
