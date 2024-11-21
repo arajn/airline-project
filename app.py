@@ -83,15 +83,15 @@ model = GenerativeModel(
 
 st.set_page_config(
     page_title="SQL Talk with BigQuery",
-    page_icon="vertex-ai.png",
+    # page_icon="vertex-ai.png",
     layout="wide",
 )
 
 col1, col2 = st.columns([8, 1])
 with col1:
     st.title("SQL Talk with BigQuery")
-with col2:
-    st.image("vertex-ai.png")
+# with col2:
+    # st.image("vertex-ai.png")
 
 st.subheader("Powered by Function Calling in Gemini")
 
